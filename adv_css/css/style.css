@@ -23,6 +23,7 @@ a:hover{
     background-color: #BFB19F;
     width: 90%;
     margin: 20px auto;
+    border: 5px solid black;
 }
 
 #container p{
