@@ -1,0 +1,210 @@
+/* Global Styles */
+img{
+    display: block;
+    margin: 0 auto;
+    width: 90%;
+}
+
+body{
+    background-color: #792a2a;
+}
+
+#container{
+    background-color: #907f68;
+    padding: 12px;
+}
+
+h1, h2, h3{
+    text-align: center;
+    color: #792a2a;
+}
+
+a{
+    color: #99AABF;
+}
+
+a:hover{
+    color: #421c1c;
+    text-decoration: none;
+}
+
+/* Mobile  Styles */
+
+nav{
+    background-color: #421c1c;
+    padding: 8px;
+    border-radius: 12px;
+}
+
+nav ul{
+    list-style: none;
+    padding: 0;
+}
+
+nav li{
+    display: block;
+}
+
+nav li a{
+    display: block;
+    height: 42px;
+    line-height: 42px;
+    color: #99AABF;
+    background-color: #534946;
+    text-align: center;
+    margin: 5px 0;
+    font-size: 22px;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 12px;
+}
+
+nav li a:hover{
+    background-color: #b87d36;
+}
+
+header h1{
+    font-size: 40px;
+}
+
+h1, h2, h3{
+    text-shadow: 1px 1px 1px black;
+}
+
+main{
+    border: 2px solid black;
+    padding: 8px;
+    margin: 15px 0;
+}
+
+#lower{
+    border: 2px solid black;
+    padding: 10px;
+}
+
+.col{
+    border: 2px solid black;
+    margin: 10px;
+    padding: 8px;
+}
+
+.col p{
+    text-align: center;
+}
+
+.button{
+    display: block;
+    margin: 8px auto;
+    width: 230px;
+    height: 40px;
+    line-height: 40px;
+    color: #99AABF;
+    background-color: #534946;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    text-decoration: none;
+    border: 2px solid black;
+    border-radius: 12px;
+}
+
+.button:hover{
+    background-color: #b87d36;
+}
+
+.wea ul{
+    list-style: none;
+    padding: 0;
+    text-align: center;
+}
+
+.wea li{
+    display: block;
+}
+
+footer{
+    padding: 40px 0;
+    text-align: center;
+}
+
+/* Tablet Styles */
+
+@media (min-width: 786px){
+    nav{
+        text-align: center;
+    }
+
+    nav li{
+        display: inline-block;
+        margin: 0 25px;
+    }
+
+    nav li a{
+        height: 60px;
+        line-height: 60px;
+        width: 200px;
+    }
+
+    header h1{
+        font-size: 60px;
+    }
+
+    h2{
+        font-size: 45px;
+    }
+
+    h3{
+        font-size: 30px;
+    }
+
+    main img{
+        width: 60%;
+    }
+
+    .wea img{
+        width: 65%;
+    }
+
+    #lower{
+        width: 85%;
+        margin: 0 auto;
+    }
+
+    .col img{
+        width: 65%;
+    }
+
+}
+
+/* Desktop Styles */
+
+@media (min-width: 1024px) {
+    #container{
+        width: 90%;
+        margin: 20px auto;
+    }
+
+    #lower{
+        width: 90%;
+        display: flex;
+    }
+
+    #weapons{
+        display: flex;
+    }
+
+    .wea{
+        padding: 10px;
+        margin: 10px;
+        border: 2px solid black;
+        width: 50%;
+    }
+
+    .wea p{
+        text-align: center;
+    }
+
+    .col{
+        width: 33.33%;
+    }
+}
