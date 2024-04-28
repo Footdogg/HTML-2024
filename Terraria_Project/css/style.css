@@ -193,13 +193,12 @@ footer{
 
     nav li{
         display: inline-block;
-        margin: 5px 28px;
     }
 
     nav li a{
-        height: 80px;
-        line-height: 80px;
-        width: 175px;
+        height: 70px;
+        line-height: 70px;
+        width: 500px;
     }
 
     h2{
@@ -226,13 +225,12 @@ footer{
 
     #bottomnav li{
         display: inline-block;
-        margin: 5px 28px;
     }
 
     #bottomnav li a{
-        height: 80px;
-        line-height: 80px;
-        width: 175px;
+        height: 70px;
+        line-height: 70px;
+        width: 500px;
     }
 }
 
